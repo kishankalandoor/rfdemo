@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Veg Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+     .menu-text {
+          color: white;
+          font-weight: bold;
+      }
+      .highlight {
+          background-color: yellow;
+          color: black; 
+      }
+      .search-container {
+          position: relative;
+          width: 100%;
+          max-width: 500px;
+      }
+      #searchInput {
+          background-color: transparent;
+          border: 2px solid white;
+          color: white;
+          padding-right: 80px;
+          width: 100%;
+          border-radius: 5px;
+      }
+      #searchButton {
+          position: absolute;
+          right: 0;
+          top: 0;
+          height: 100%;
+          width: 80px;
+          background-color: gray;
+          color: white;
+          border: none;
+          border-left: 2px solid white;
+          border-radius: 5px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+    </style>
+</head>
+<body>
+
+    <!-- Content -->
+    <div class="bg-image" style="background-image: url('bgnd.png'); background-size: cover; background-attachment: fixed; height: 100%; padding-top: 150px;">
+        <div class="container menu-text" id="content">
+            <!-- Search Bar -->
+            <div class="container mt-3">
+                <div class="form-group search-container">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Search...">
+                    <button id="searchButton">Search</button>
+                </div>
+            </div>
+       
+            <p style="color: rgba(0, 0, 0, 0);">This Menu is developed by &copy; Kishan Kalandoor</p>
+            <h2>Non-Vegetarian Menu</h2>
+
+            <h3>Non-Veg. Soup</h3>
+            <ul>
+                <li>Chicken Clear Soup - Rs. 100</li>
+                <li>Chicken Manchow Soup - Rs. 115</li>
+                <li>Cream of Chicken Soup - Rs. 105</li>
+                <li>Hot N Sour Mutton Soup - Rs. 130</li>
+                <li>Hot N Sour Chicken Soup - Rs. 100</li>
+                <li>Mutton Manchow Soup - Rs. 130</li>
+                <li>Sea Food Soup - Rs. 115</li>
+                <li>Sweet Corn Chicken Soup - Rs. 100</li>
+                <li>Sweet Corn Egg Soup - Rs. 95</li>
+            </ul>
+
+            <h3>Non-Vegetarian Chinese</h3>
+            <ul>
+                <li>Chicken 65 - Rs. 210</li>
+                <li>Chicken Chilly (Boneless) - Rs. 200</li>
+                <li>Chicken Chilly (Bon) - Rs. 205</li>
+                <li>Chicken Butter Garlic - Rs. 195</li>
+                <li>Chicken Crispy - Rs. 185</li>
+                <li>Chicken Garlic - Rs. 190</li>
+                <li>Chicken Ginger Dry - Rs. 190</li>
+                <li>Chicken Kabab (Chinese) - Rs. 200</li>
+                <li>Chicken Lever Chilly - Rs. 140</li>
+                <li>Chicken Lollipop - Rs. 180</li>
+                <li>Chicken Manchurian - Rs. 190</li>
+                <li>Chicken Pepper Fry (Bon) - Rs. 180</li>
+                <li>Chicken Pepper Fry (Boneless) - Rs. 200</li>
+                <li>Chicken Shezwan - Rs. 195</li>
+                <li>Chicken Spring Roll - Rs. 220</li>
+                <li>Chicken Uruval (Bon) - Rs. 225</li>
+                <li>Chicken Uruval (Boneless) - Rs. 245</li>
+                <li>Chicken Saate - Rs. 325</li>
+                <li>Drums Heaven Lollipop - Rs. 255</li>
+                <li>Hong Kong Chicken Dry - Rs. 210</li>
+                <li>Mixed Spring Roll - Rs. 255</li>
+            </ul>
+
+            <h3>Non-Vegetarian</h3>
+            <ul>
+                <li>Boiled Egg - Rs. 45</li>
+                <li>Chicken Sukka Full - Rs. 190</li>
+                <li>Chicken Sukka Half - Rs. 120</li>
+                <li>Egg Burji - Rs. 80</li>
+                <li>Egg HF Fry - Rs. 70</li>
+                <li>Egg Omelet - Rs. 85</li>
+                <li>Egg Pakoda - Rs. 85</li>
+                <li>Mutton Sukka Full - Rs. 290</li>
+                <li>Mutton Sukka Half - Rs. 180</li>
+                <li>Chicken Sukka Coconut Full - Rs. 200</li>
+                <li>Chicken Sukka Coconut Half - Rs. 130</li>
+            </ul>
+
+            <h3>Tandoori Kabab</h3>
+            <ul>
+                <li>Chicken Hariyali Kabab - Rs. 245</li>
+                <li>Chicken Kalmi Kabab (2pcs) - Rs. 315</li>
+                <li>Chicken Kalmi Kabab (1pc) - Rs. 175</li>
+                <li>Chicken Reshmi Kabab - Rs. 240</li>
+                <li>Chicken Sheek Kabab - Rs. 230</li>
+                <li>Chicken Tandoori (Full) - Rs. 230</li>
+                <li>Chicken Tandoori (Half) - Rs. 235</li>
+                <li>Chicken Tangdi Kabab (2pcs) - Rs. 335</li>
+                <li>Chicken Tangdi Kabab (1pc) - Rs. 200</li>
+                <li>Chicken Tikka - Rs. 235</li>
+                <li>Fish Tandoori - Rs. 235</li>
+            </ul>
+
+            <h3>South Indian Non-Veg.</h3>
+            <ul>
+                <li>Chicken Ghee Roast (Full) - Rs. 370</li>
+                <li>Chicken Ghee Roast (Half) - Rs. 240</li>
+                <li>Chicken Pulimunchi - Rs. 160</li>
+                <li>Egg Ghee Roast - Rs. 200</li>
+                <li>Mutton Ghee Roast (Half) - Rs. 320</li>
+                <li>Mutton Ghee Roast (Full) - Rs. 490</li>
+            </ul>
+
+            <h3>Tandoori Breads</h3>
+            <ul>
+                <li>Alu Parota - Rs. 75</li>
+                <li>Butter Kulcha - Rs. 65</li>
+                <li>Butter Naan - Rs. 60</li>
+                <li>Butter Parota - Rs. 60</li>
+                <li>Butter Roti - Rs. 45</li>
+                <li>Butter Stuff Kulcha - Rs. 85</li>
+                <li>Chapati - Rs. 25</li>
+                <li>Egg Parota - Rs. 40</li>
+                <li>Garlic Kulcha - Rs. 70</li>
+                <li>Garlic Naan - Rs. 65</li>
+                <li>Butter Garlic Naan - Rs. 75</li>
+                <li>Kheema Chi Naan - Rs. 75</li>
+                <li>Kheema Mutton Naan - Rs. 100</li>
+                <li>Mutton Kheema Parota - Rs. 120</li>
+                <li>Kulcha - Rs. 50</li>
+                <li>Naan - Rs. 50</li>
+                <li>Neerdosa - Rs. 50</li>
+                <li>Paneer Parota - Rs. 80</li>
+                <li>Parota - Rs. 50</li>
+                <li>Roti - Rs. 55</li>
+                <li>Stuffed Parota - Rs. 80</li>
+                <li>Cheese Naan - Rs. 85</li>
+                <li>Butter Cheese Naan - Rs. 95</li>
+                <li>Butter Cheese Garlic Naan - Rs. 95</li>
+            </ul>
+
+            <h3>Forever Special</h3>
+            <ul>
+                <li>Chicken Platter Full - Rs. 560</li>
+                <li>Forever Special Chicken - Rs. 540</li>
+            </ul>
+
+            <h3>Veg. Appetizer</h3>
+            <ul>
+                <li>Chana Dry - Rs. 100</li>
+                <li>Chilly Bhajji - Rs. 50</li>
+                <li>Crispy Veg. Fry - Rs. 140</li>
+                <li>Masala Papad - Rs. 50</li>
+                <li>Onion Bhajji - Rs. 50</li>
+                <li>Peanut Masala - Rs. 55</li>
+                <li>Tomato Bhajji - Rs. 55</li>
+                <li>Veg. Pakoda - Rs. 75</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("searchButton").addEventListener("click", function() {
+            let searchTerm = document.getElementById("searchInput").value.toLowerCase();
+            let items = document.querySelectorAll("ul li");
+
+            items.forEach(function(item) {
+                if (item.textContent.toLowerCase().includes(searchTerm)) {
+                    item.classList.add("highlight");
+                } else {
+                    item.classList.remove("highlight");
+                }
+            });
+        });
+
+        document.getElementById("searchInput").addEventListener("keydown", function(event) {
+            if (event.key === "Enter") {
+                document.getElementById("searchButton").click();
+            }
+        });
+    </script>
+
+</body>
+</html>
